@@ -1,0 +1,69 @@
+$(document).ready(function(){
+    $(".clickable2").click(function(){
+    $("#development-hidden").toggle(800)
+    $("#development-showing").toggle(800)
+});
+
+$(document).ready(function(){
+$(".clickable1").click(function(){
+$("#design-hidden").toggle(800)
+$("#design-showing").toggle(800)
+});
+});
+
+$(document).ready(function(){
+    $(".clickable3").click(function(){
+    $("#product-hidden").toggle(800);
+    $("#product-showing").toggle(800)
+    });
+});$('form').submitt(function(){
+    var name=$('#name').val()
+    var email=$('#email').val()
+    if(name==""||message==""||email==""){
+alert("fill all the form");
+    }
+    else alert(name+"we have received your message.Thank you fro reaching out us.")
+})
+})
+$(document).ready(function(){
+    $("imag#po1").mouseover(function(){
+        $(".por1").show();
+}).mouseout(function(){
+    $(".por1").hide();
+});
+$("imag#po2").mouseover(function(){
+$(".por2").show();
+}).mouseout(function(){
+ $(".por2").hide();
+});
+$("img#po3").mouseover(function(){
+    $(".por3").show();
+}).mouseout(function(){
+    $(".po3").hide();
+});
+$(".img#po4").mouseover(function(){
+    $(".por4").show();
+});mouseout(function(){
+    $(".po4").hide();
+});
+$("img#po5").mouseover(function(){
+    $(".por5").show();
+});mouseout(function(){
+$(".po5").hide();
+});
+$("img#po6").mouseover(function(){
+    $(".por6").show();
+});mouseout(function(){
+    $(".po6").hide();
+});
+$("img#po7").mouseover(function(){
+$(".por7").show();
+});mouseout(function(){
+    $(".po7").hide();
+});
+$("img#po8").mouseover(function(){
+    $(".por8").show();
+});mouseout(function(){
+    $(".po8").hide();
+});
+});
